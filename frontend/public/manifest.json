@@ -1,26 +1,21 @@
 {
-    "manifest_version": 3,
-    "name": "Buzzer Detector",
-    "version": "1.0.0",
+  "manifest_version": 3,
+  "name": "TrustLens",
+  "version": "1.0.0",
 
-    "action": {
-        "default_popup": "index.html",
-        "default_title": "Buzzer Detector"
-    },
+  "action": {
+    "default_popup": "index.html",
+    "default_title": "TrustLens"
+  },
 
-    "permissions": [
-        "activeTab",
-        "storage"
-    ],
+  "permissions": ["activeTab", "storage"],
 
-    "host_permissions": [
-        "<all_urls>"
-    ],
+  "host_permissions": ["<all_urls>"],
 
-    "content_scripts": [
-        {
-            "matches": ["<all_urls>"],
-            "js": ["assets/content.js"]
-        }
-    ]
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["assets/content.js"]
+    }
+  ]
 }

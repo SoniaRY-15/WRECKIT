@@ -93,7 +93,7 @@ if __name__ == "__main__":
         ];
 
         // Call Python script
-        const python = spawn("python3", [
+        const python = spawn("python", [
           "-c",
           this.pythonScript,
           MODEL_PATH,

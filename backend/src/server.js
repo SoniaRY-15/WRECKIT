@@ -6,9 +6,9 @@ const PORT = config.server.port;
 app.listen(PORT, () => {
   console.log(`
 ╔════════════════════════════════════════╗
-║  TrustLens Backend Server           ║
+║  TrustLens Backend Server              ║
 ║  Running on http://localhost:${PORT}      ║
-║  Environment: ${config.server.nodeEnv}                   ║
+║  Environment: ${config.server.nodeEnv}              ║
 ╚════════════════════════════════════════╝
   `);
 });
