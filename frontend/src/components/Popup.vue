@@ -48,7 +48,7 @@ async function analyze() {
 <template>
   <div class="popup">
     <div class="header">
-      <h2>🛡️ Buzzer Detector</h2>
+      <h2>🛡️ TrustLens</h2>
       <p>Analyze social media credibility</p>
       <!-- Tampilkan warning jika backend offline -->
       <div v-if="!backendOnline" class="warning">⚠️ Backend offline</div>
