@@ -17,7 +17,6 @@ async function analyze() {
   error.value = null;
   result.value = null;
 
-  // ⭐ DUMMY DATA - GANTI INI NANTI DENGAN DATA REAL DARI PAGE
   const accountData = {
     username: "testuser123",
     followers: 1500,
@@ -52,9 +51,7 @@ async function analyze() {
       <h2>🛡️ Buzzer Detector</h2>
       <p>Analyze social media credibility</p>
       <!-- Tampilkan warning jika backend offline -->
-      <div v-if="!backendOnline" class="warning">
-        ⚠️ Backend offline - pastikan backend berjalan di localhost:5000
-      </div>
+      <div v-if="!backendOnline" class="warning">⚠️ Backend offline</div>
     </div>
 
     <div class="card">
